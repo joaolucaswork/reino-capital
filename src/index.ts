@@ -1,7 +1,11 @@
-import { greetUser } from '$utils/greet';
+import { homeAnimation } from '$utils/homeAnimation';
+import { rightMenu } from '$utils/rightMenu';
+import { tabEffects } from '$utils/tabEffect';
+import { textAnimation } from '$utils/textAnimation';
+import { videoSettings } from '$utils/videoSettings';
 
-window.Webflow ||= [];
-window.Webflow.push(() => {
-  const name = 'John Doe';
-  greetUser(name);
-});
+homeAnimation();
+tabEffects();
+rightMenu();
+videoSettings();
+textAnimation();

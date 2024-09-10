@@ -10,3 +10,81 @@ video {
   width: 100% !important;
   object-fit: cover;
 }
+
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  will-change: opacity, transform;
+  transition: all 0.3s ease-out;
+}
+.waves-effect .waves-ripple {
+  position: absolute;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.2);
+  transition: all 0.7s ease-out;
+  transition-property:
+    opacity,
+    -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property:
+    transform,
+    opacity,
+    -webkit-transform;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  pointer-events: none;
+}
+
+.menu_link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: translateX(-110%);
+  transition: transform 0.7s ease;
+}
+
+.menu_link:hover::before {
+  transform: translateX(101%);
+  transition: transform 0.7s ease;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: translateX(-101%);
+  transition: transform 0.5s ease;
+}
+
+.nav-link.left-to-right::before {
+  transform: translateX(101%);
+}
+
+.nav-link:hover::before {
+  transform: translateX(0);
+}
+
+.p5-container {
+  background-color: transparent !important;
+}

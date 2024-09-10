@@ -1,3 +1,4 @@
+import { bgAnimation } from '$utils/bgAnimation';
 import { homeAnimation } from '$utils/homeAnimation';
 import { rightMenu } from '$utils/rightMenu';
 import { tabEffects } from '$utils/tabEffect';
@@ -9,3 +10,4 @@ tabEffects();
 rightMenu();
 videoSettings();
 textAnimation();
+bgAnimation();

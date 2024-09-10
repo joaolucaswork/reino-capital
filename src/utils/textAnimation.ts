@@ -2,6 +2,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
+import materialize from 'materialize-css';
 
 export function textAnimation() {
   const buttons = document.querySelectorAll('.nav-link');

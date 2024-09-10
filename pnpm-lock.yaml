@@ -17,6 +17,12 @@ importers:
       gsap:
         specifier: ^3.12.5
         version: 3.12.5
+      materialize-css:
+        specifier: 1.0.0-rc.2
+        version: 1.0.0-rc.2
+      p5:
+        specifier: ^1.10.0
+        version: 1.10.0
       popmotion:
         specifier: ^11.0.5
         version: 11.0.5
@@ -828,6 +834,9 @@ packages:
   lru-cache@4.1.5:
     resolution: {integrity: sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g==}
 
+  materialize-css@1.0.0-rc.2:
+    resolution: {integrity: sha512-FuQmSyq4Qv0ov7A2qXw0E6/jbQzSWx2P1pg2/XQDYTkkSc/GyiFAxu3fw9zgShwuTvyumEiw5jkxQWT9siqMBQ==}
+
   media-captions@1.0.4:
     resolution: {integrity: sha512-cyDNmuZvvO4H27rcBq2Eudxo9IZRDCOX/I7VEyqbxsEiD2Ei7UYUhG/Sc5fvMZjmathgz3fEK7iAKqvpY+Ux1w==}
     engines: {node: '>=16'}
@@ -898,6 +907,9 @@ packages:
   p-try@2.2.0:
     resolution: {integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==}
     engines: {node: '>=6'}
+
+  p5@1.10.0:
+    resolution: {integrity: sha512-6cWYBFhnZz7jNC6p1VWvlt3QReMqrRSmO90bgECQIKB9oko2w/sKrOAVMyei5tjIzSYcSY0JHy+BRtSAWq24jQ==}
 
   package-manager-detector@0.2.0:
     resolution: {integrity: sha512-E385OSk9qDcXhcM9LNSe4sdhx8a9mAPrZ4sMLW+tmxl5ZuGtPUcdFu+MPP2jbgiWAZ6Pfe5soGFMd+0Db5Vrog==}
@@ -1988,6 +2000,8 @@ snapshots:
       pseudomap: 1.0.2
       yallist: 2.1.2
 
+  materialize-css@1.0.0-rc.2: {}
+
   media-captions@1.0.4: {}
 
   merge2@1.4.1: {}
@@ -2051,6 +2065,8 @@ snapshots:
   p-map@2.1.0: {}
 
   p-try@2.2.0: {}
+
+  p5@1.10.0: {}
 
   package-manager-detector@0.2.0: {}
 

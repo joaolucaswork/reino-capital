@@ -6,4 +6,6 @@
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-export function tabEffectsInit() {}
+export function processoAnimation() {
+  gsap.registerPlugin(ScrollTrigger);
+}

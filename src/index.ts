@@ -1,13 +1,16 @@
-import { bgAnimation } from '$utils/bgAnimation';
-import { homeAnimation } from '$utils/homeAnimation';
-import { rightMenu } from '$utils/rightMenu';
-import { tabEffects } from '$utils/tabEffect';
-import { textAnimation } from '$utils/textAnimation';
-import { videoSettings } from '$utils/videoSettings';
+//import { homeAnimation } from '$utils/homeAnimation';
+//import { videoSettings } from '$utils/videoSettings';
 
-homeAnimation();
-tabEffects();
+import { heroAnimation } from '$utils/heroAnimation';
+import { processoAnimation } from '$utils/processoAnimation';
+import { rightMenu } from '$utils/rightMenu';
+import { tabEffectsInit } from '$utils/tabEffect';
+import { textAnimation } from '$utils/textAnimation';
+
+//homeAnimation();
 rightMenu();
-videoSettings();
+//videoSettings();
 textAnimation();
-bgAnimation();
+processoAnimation();
+heroAnimation();
+tabEffectsInit();

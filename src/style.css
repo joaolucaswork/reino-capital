@@ -1,4 +1,6 @@
 @import 'vidstack/player/styles/base.css';
+@import 'lenis/dist/lenis.css';
+@import 'swiper/css/bundle';
 
 media-player {
   width: 100%;

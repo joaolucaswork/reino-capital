@@ -1,6 +1,6 @@
 {
   "name": "@reinocapital/institucional-reino",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Site - Reino Capital",
   "homepage": "https://github.com/finsweet/developer-starter#readme",
   "license": "ISC",
@@ -66,5 +66,8 @@
   },
   "engines": {
     "pnpm": ">=9"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

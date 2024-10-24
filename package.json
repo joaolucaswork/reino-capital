@@ -1,6 +1,6 @@
 {
   "name": "@reinocapital/institucional-reino",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Site - Reino Capital",
   "homepage": "https://github.com/finsweet/developer-starter#readme",
   "license": "ISC",
@@ -54,6 +54,7 @@
   "dependencies": {
     "@finsweet/ts-utils": "^0.40.0",
     "cobe": "^0.6.3",
+    "dragdealer": "^0.10.0",
     "gsap": "^3.12.5",
     "lenis": "^1.1.14",
     "materialize-css": "1.0.0-rc.2",

@@ -14,6 +14,9 @@ importers:
       cobe:
         specifier: ^0.6.3
         version: 0.6.3
+      dragdealer:
+        specifier: ^0.10.0
+        version: 0.10.0
       gsap:
         specifier: ^3.12.5
         version: 3.12.5
@@ -562,6 +565,9 @@ packages:
   doctrine@3.0.0:
     resolution: {integrity: sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==}
     engines: {node: '>=6.0.0'}
+
+  dragdealer@0.10.0:
+    resolution: {integrity: sha512-epTXLx6m1fhrqtqUo/YjWQIT1L+Y5EI6WsrNI6K6QJCwHQtPrdHl5Btiiu4OtVaaNO+hEwA7rzBqWzgrslF4ZQ==}
 
   enquirer@2.4.1:
     resolution: {integrity: sha512-rRqJg/6gd538VHvR3PSrdRBb/1Vy2YfzHqzvbhGIQpDRKIa4FgV/54b5Q1xYSxOOwKvjXweS26E0Q+nAMwp2pQ==}
@@ -1701,6 +1707,8 @@ snapshots:
   doctrine@3.0.0:
     dependencies:
       esutils: 2.0.3
+
+  dragdealer@0.10.0: {}
 
   enquirer@2.4.1:
     dependencies:

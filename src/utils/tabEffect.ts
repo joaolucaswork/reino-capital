@@ -8,6 +8,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 export function tabEffectsInit() {
   // Evento de clique para sincronizar as abas
+
   $('.atuamos_top_item').on('click', function () {
     const currentIndex = $(this).index();
     $('.tab_hidde').eq(currentIndex).trigger('click');
